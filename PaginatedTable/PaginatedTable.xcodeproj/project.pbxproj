@@ -1,522 +1,1002 @@
-// !$*UTF8*$!
-{
-	archiveVersion = 1;
-	classes = {
-	};
-	objectVersion = 46;
-	objects = {
-
-/* Begin PBXBuildFile section */
-		3016378A1CE896970085EDDF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301637891CE896970085EDDF /* AppDelegate.swift */; };
-		3016378C1CE896970085EDDF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3016378B1CE896970085EDDF /* ViewController.swift */; };
-		3016378F1CE896970085EDDF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3016378D1CE896970085EDDF /* Main.storyboard */; };
-		301637911CE896970085EDDF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 301637901CE896970085EDDF /* Assets.xcassets */; };
-		301637941CE896970085EDDF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 301637921CE896970085EDDF /* LaunchScreen.storyboard */; };
-		3016379F1CE896970085EDDF /* PaginatedTableTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3016379E1CE896970085EDDF /* PaginatedTableTests.swift */; };
-		301637AA1CE896970085EDDF /* PaginatedTableUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301637A91CE896970085EDDF /* PaginatedTableUITests.swift */; };
-		301637B91CE898B70085EDDF /* PaginatedTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301637B81CE898B70085EDDF /* PaginatedTable.swift */; };
-/* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		3016379B1CE896970085EDDF /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 3016377E1CE896970085EDDF /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 301637851CE896970085EDDF;
-			remoteInfo = PaginatedTable;
-		};
-		301637A61CE896970085EDDF /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 3016377E1CE896970085EDDF /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 301637851CE896970085EDDF;
-			remoteInfo = PaginatedTable;
-		};
-/* End PBXContainerItemProxy section */
-
-/* Begin PBXFileReference section */
-		301637861CE896970085EDDF /* PaginatedTable.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PaginatedTable.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		301637891CE896970085EDDF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3016378B1CE896970085EDDF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		3016378E1CE896970085EDDF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		301637901CE896970085EDDF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		301637931CE896970085EDDF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		301637951CE896970085EDDF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3016379A1CE896970085EDDF /* PaginatedTableTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PaginatedTableTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		3016379E1CE896970085EDDF /* PaginatedTableTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaginatedTableTests.swift; sourceTree = "<group>"; };
-		301637A01CE896970085EDDF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		301637A51CE896970085EDDF /* PaginatedTableUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PaginatedTableUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		301637A91CE896970085EDDF /* PaginatedTableUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaginatedTableUITests.swift; sourceTree = "<group>"; };
-		301637AB1CE896970085EDDF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		301637B81CE898B70085EDDF /* PaginatedTable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaginatedTable.swift; sourceTree = "<group>"; };
-/* End PBXFileReference section */
-
-/* Begin PBXFrameworksBuildPhase section */
-		301637831CE896970085EDDF /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		301637971CE896970085EDDF /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		301637A21CE896970085EDDF /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXFrameworksBuildPhase section */
-
-/* Begin PBXGroup section */
-		3016377D1CE896970085EDDF = {
-			isa = PBXGroup;
-			children = (
-				301637881CE896970085EDDF /* PaginatedTable */,
-				3016379D1CE896970085EDDF /* PaginatedTableTests */,
-				301637A81CE896970085EDDF /* PaginatedTableUITests */,
-				301637871CE896970085EDDF /* Products */,
-			);
-			sourceTree = "<group>";
-		};
-		301637871CE896970085EDDF /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				301637861CE896970085EDDF /* PaginatedTable.app */,
-				3016379A1CE896970085EDDF /* PaginatedTableTests.xctest */,
-				301637A51CE896970085EDDF /* PaginatedTableUITests.xctest */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		301637881CE896970085EDDF /* PaginatedTable */ = {
-			isa = PBXGroup;
-			children = (
-				301637B71CE8989A0085EDDF /* Lib */,
-				301637891CE896970085EDDF /* AppDelegate.swift */,
-				3016378B1CE896970085EDDF /* ViewController.swift */,
-				3016378D1CE896970085EDDF /* Main.storyboard */,
-				301637901CE896970085EDDF /* Assets.xcassets */,
-				301637921CE896970085EDDF /* LaunchScreen.storyboard */,
-				301637951CE896970085EDDF /* Info.plist */,
-			);
-			path = PaginatedTable;
-			sourceTree = "<group>";
-		};
-		3016379D1CE896970085EDDF /* PaginatedTableTests */ = {
-			isa = PBXGroup;
-			children = (
-				3016379E1CE896970085EDDF /* PaginatedTableTests.swift */,
-				301637A01CE896970085EDDF /* Info.plist */,
-			);
-			path = PaginatedTableTests;
-			sourceTree = "<group>";
-		};
-		301637A81CE896970085EDDF /* PaginatedTableUITests */ = {
-			isa = PBXGroup;
-			children = (
-				301637A91CE896970085EDDF /* PaginatedTableUITests.swift */,
-				301637AB1CE896970085EDDF /* Info.plist */,
-			);
-			path = PaginatedTableUITests;
-			sourceTree = "<group>";
-		};
-		301637B71CE8989A0085EDDF /* Lib */ = {
-			isa = PBXGroup;
-			children = (
-				301637B81CE898B70085EDDF /* PaginatedTable.swift */,
-			);
-			name = Lib;
-			sourceTree = "<group>";
-		};
-/* End PBXGroup section */
-
-/* Begin PBXNativeTarget section */
-		301637851CE896970085EDDF /* PaginatedTable */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 301637AE1CE896970085EDDF /* Build configuration list for PBXNativeTarget "PaginatedTable" */;
-			buildPhases = (
-				301637821CE896970085EDDF /* Sources */,
-				301637831CE896970085EDDF /* Frameworks */,
-				301637841CE896970085EDDF /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = PaginatedTable;
-			productName = PaginatedTable;
-			productReference = 301637861CE896970085EDDF /* PaginatedTable.app */;
-			productType = "com.apple.product-type.application";
-		};
-		301637991CE896970085EDDF /* PaginatedTableTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 301637B11CE896970085EDDF /* Build configuration list for PBXNativeTarget "PaginatedTableTests" */;
-			buildPhases = (
-				301637961CE896970085EDDF /* Sources */,
-				301637971CE896970085EDDF /* Frameworks */,
-				301637981CE896970085EDDF /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				3016379C1CE896970085EDDF /* PBXTargetDependency */,
-			);
-			name = PaginatedTableTests;
-			productName = PaginatedTableTests;
-			productReference = 3016379A1CE896970085EDDF /* PaginatedTableTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		301637A41CE896970085EDDF /* PaginatedTableUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 301637B41CE896970085EDDF /* Build configuration list for PBXNativeTarget "PaginatedTableUITests" */;
-			buildPhases = (
-				301637A11CE896970085EDDF /* Sources */,
-				301637A21CE896970085EDDF /* Frameworks */,
-				301637A31CE896970085EDDF /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				301637A71CE896970085EDDF /* PBXTargetDependency */,
-			);
-			name = PaginatedTableUITests;
-			productName = PaginatedTableUITests;
-			productReference = 301637A51CE896970085EDDF /* PaginatedTableUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
-/* End PBXNativeTarget section */
-
-/* Begin PBXProject section */
-		3016377E1CE896970085EDDF /* Project object */ = {
-			isa = PBXProject;
-			attributes = {
-				LastSwiftUpdateCheck = 0730;
-				LastUpgradeCheck = 0730;
-				ORGANIZATIONNAME = Danny;
-				TargetAttributes = {
-					301637851CE896970085EDDF = {
-						CreatedOnToolsVersion = 7.3.1;
-						DevelopmentTeam = 97LC7A49YE;
-					};
-					301637991CE896970085EDDF = {
-						CreatedOnToolsVersion = 7.3.1;
-						DevelopmentTeam = 97LC7A49YE;
-						TestTargetID = 301637851CE896970085EDDF;
-					};
-					301637A41CE896970085EDDF = {
-						CreatedOnToolsVersion = 7.3.1;
-						DevelopmentTeam = 97LC7A49YE;
-						TestTargetID = 301637851CE896970085EDDF;
-					};
-				};
-			};
-			buildConfigurationList = 301637811CE896970085EDDF /* Build configuration list for PBXProject "PaginatedTable" */;
-			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
-			hasScannedForEncodings = 0;
-			knownRegions = (
-				en,
-				Base,
-			);
-			mainGroup = 3016377D1CE896970085EDDF;
-			productRefGroup = 301637871CE896970085EDDF /* Products */;
-			projectDirPath = "";
-			projectRoot = "";
-			targets = (
-				301637851CE896970085EDDF /* PaginatedTable */,
-				301637991CE896970085EDDF /* PaginatedTableTests */,
-				301637A41CE896970085EDDF /* PaginatedTableUITests */,
-			);
-		};
-/* End PBXProject section */
-
-/* Begin PBXResourcesBuildPhase section */
-		301637841CE896970085EDDF /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				301637941CE896970085EDDF /* LaunchScreen.storyboard in Resources */,
-				301637911CE896970085EDDF /* Assets.xcassets in Resources */,
-				3016378F1CE896970085EDDF /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		301637981CE896970085EDDF /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		301637A31CE896970085EDDF /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXResourcesBuildPhase section */
-
-/* Begin PBXSourcesBuildPhase section */
-		301637821CE896970085EDDF /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				301637B91CE898B70085EDDF /* PaginatedTable.swift in Sources */,
-				3016378C1CE896970085EDDF /* ViewController.swift in Sources */,
-				3016378A1CE896970085EDDF /* AppDelegate.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		301637961CE896970085EDDF /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3016379F1CE896970085EDDF /* PaginatedTableTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		301637A11CE896970085EDDF /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				301637AA1CE896970085EDDF /* PaginatedTableUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		3016379C1CE896970085EDDF /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 301637851CE896970085EDDF /* PaginatedTable */;
-			targetProxy = 3016379B1CE896970085EDDF /* PBXContainerItemProxy */;
-		};
-		301637A71CE896970085EDDF /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 301637851CE896970085EDDF /* PaginatedTable */;
-			targetProxy = 301637A61CE896970085EDDF /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		3016378D1CE896970085EDDF /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				3016378E1CE896970085EDDF /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		301637921CE896970085EDDF /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				301637931CE896970085EDDF /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
-
-/* Begin XCBuildConfiguration section */
-		301637AC1CE896970085EDDF /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_TESTABILITY = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = iphoneos;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-			};
-			name = Debug;
-		};
-		301637AD1CE896970085EDDF /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				SDKROOT = iphoneos;
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		301637AF1CE896970085EDDF /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = PaginatedTable/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.medioread.PaginatedTable;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Debug;
-		};
-		301637B01CE896970085EDDF /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = PaginatedTable/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.medioread.PaginatedTable;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
-		301637B21CE896970085EDDF /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = PaginatedTableTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.medioread.PaginatedTableTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PaginatedTable.app/PaginatedTable";
-			};
-			name = Debug;
-		};
-		301637B31CE896970085EDDF /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = PaginatedTableTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.medioread.PaginatedTableTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PaginatedTable.app/PaginatedTable";
-			};
-			name = Release;
-		};
-		301637B51CE896970085EDDF /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = PaginatedTableUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.medioread.PaginatedTableUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = PaginatedTable;
-			};
-			name = Debug;
-		};
-		301637B61CE896970085EDDF /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = PaginatedTableUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.medioread.PaginatedTableUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = PaginatedTable;
-			};
-			name = Release;
-		};
-/* End XCBuildConfiguration section */
-
-/* Begin XCConfigurationList section */
-		301637811CE896970085EDDF /* Build configuration list for PBXProject "PaginatedTable" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				301637AC1CE896970085EDDF /* Debug */,
-				301637AD1CE896970085EDDF /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		301637AE1CE896970085EDDF /* Build configuration list for PBXNativeTarget "PaginatedTable" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				301637AF1CE896970085EDDF /* Debug */,
-				301637B01CE896970085EDDF /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-		};
-		301637B11CE896970085EDDF /* Build configuration list for PBXNativeTarget "PaginatedTableTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				301637B21CE896970085EDDF /* Debug */,
-				301637B31CE896970085EDDF /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-		};
-		301637B41CE896970085EDDF /* Build configuration list for PBXNativeTarget "PaginatedTableUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				301637B51CE896970085EDDF /* Debug */,
-				301637B61CE896970085EDDF /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-		};
-/* End XCConfigurationList section */
-	};
-	rootObject = 3016377E1CE896970085EDDF /* Project object */;
-}
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>archiveVersion</key>
+	<string>1</string>
+	<key>classes</key>
+	<dict/>
+	<key>objectVersion</key>
+	<string>46</string>
+	<key>objects</key>
+	<dict>
+		<key>3016377D1CE896970085EDDF</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>301637881CE896970085EDDF</string>
+				<string>3016379D1CE896970085EDDF</string>
+				<string>301637A81CE896970085EDDF</string>
+				<string>301637871CE896970085EDDF</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>3016377E1CE896970085EDDF</key>
+		<dict>
+			<key>attributes</key>
+			<dict>
+				<key>LastSwiftUpdateCheck</key>
+				<string>0730</string>
+				<key>LastUpgradeCheck</key>
+				<string>0730</string>
+				<key>ORGANIZATIONNAME</key>
+				<string>Danny</string>
+				<key>TargetAttributes</key>
+				<dict>
+					<key>301637851CE896970085EDDF</key>
+					<dict>
+						<key>CreatedOnToolsVersion</key>
+						<string>7.3.1</string>
+						<key>DevelopmentTeam</key>
+						<string>97LC7A49YE</string>
+					</dict>
+					<key>301637991CE896970085EDDF</key>
+					<dict>
+						<key>CreatedOnToolsVersion</key>
+						<string>7.3.1</string>
+						<key>DevelopmentTeam</key>
+						<string>97LC7A49YE</string>
+						<key>TestTargetID</key>
+						<string>301637851CE896970085EDDF</string>
+					</dict>
+					<key>301637A41CE896970085EDDF</key>
+					<dict>
+						<key>CreatedOnToolsVersion</key>
+						<string>7.3.1</string>
+						<key>DevelopmentTeam</key>
+						<string>97LC7A49YE</string>
+						<key>TestTargetID</key>
+						<string>301637851CE896970085EDDF</string>
+					</dict>
+				</dict>
+			</dict>
+			<key>buildConfigurationList</key>
+			<string>301637811CE896970085EDDF</string>
+			<key>compatibilityVersion</key>
+			<string>Xcode 3.2</string>
+			<key>developmentRegion</key>
+			<string>English</string>
+			<key>hasScannedForEncodings</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXProject</string>
+			<key>knownRegions</key>
+			<array>
+				<string>en</string>
+				<string>Base</string>
+			</array>
+			<key>mainGroup</key>
+			<string>3016377D1CE896970085EDDF</string>
+			<key>productRefGroup</key>
+			<string>301637871CE896970085EDDF</string>
+			<key>projectDirPath</key>
+			<string></string>
+			<key>projectReferences</key>
+			<array/>
+			<key>projectRoot</key>
+			<string></string>
+			<key>targets</key>
+			<array>
+				<string>301637851CE896970085EDDF</string>
+				<string>301637991CE896970085EDDF</string>
+				<string>301637A41CE896970085EDDF</string>
+			</array>
+		</dict>
+		<key>301637811CE896970085EDDF</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>301637AC1CE896970085EDDF</string>
+				<string>301637AD1CE896970085EDDF</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>301637821CE896970085EDDF</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>301637B91CE898B70085EDDF</string>
+				<string>3016378C1CE896970085EDDF</string>
+				<string>3016378A1CE896970085EDDF</string>
+			</array>
+			<key>isa</key>
+			<string>PBXSourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>301637831CE896970085EDDF</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXFrameworksBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>301637841CE896970085EDDF</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>301637941CE896970085EDDF</string>
+				<string>301637911CE896970085EDDF</string>
+				<string>3016378F1CE896970085EDDF</string>
+			</array>
+			<key>isa</key>
+			<string>PBXResourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>301637851CE896970085EDDF</key>
+		<dict>
+			<key>buildConfigurationList</key>
+			<string>301637AE1CE896970085EDDF</string>
+			<key>buildPhases</key>
+			<array>
+				<string>301637821CE896970085EDDF</string>
+				<string>301637831CE896970085EDDF</string>
+				<string>301637841CE896970085EDDF</string>
+			</array>
+			<key>buildRules</key>
+			<array/>
+			<key>dependencies</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXNativeTarget</string>
+			<key>name</key>
+			<string>PaginatedTable</string>
+			<key>productName</key>
+			<string>PaginatedTable</string>
+			<key>productReference</key>
+			<string>301637861CE896970085EDDF</string>
+			<key>productType</key>
+			<string>com.apple.product-type.application</string>
+		</dict>
+		<key>301637861CE896970085EDDF</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>wrapper.application</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>PaginatedTable.app</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>301637871CE896970085EDDF</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>301637861CE896970085EDDF</string>
+				<string>3016379A1CE896970085EDDF</string>
+				<string>301637A51CE896970085EDDF</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Products</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>301637881CE896970085EDDF</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>301637B71CE8989A0085EDDF</string>
+				<string>301637891CE896970085EDDF</string>
+				<string>301637901CE896970085EDDF</string>
+				<string>301637951CE896970085EDDF</string>
+				<string>301637921CE896970085EDDF</string>
+				<string>3016378D1CE896970085EDDF</string>
+				<string>3016378B1CE896970085EDDF</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>path</key>
+			<string>PaginatedTable</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>301637891CE896970085EDDF</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.swift</string>
+			<key>path</key>
+			<string>AppDelegate.swift</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>3016378A1CE896970085EDDF</key>
+		<dict>
+			<key>fileRef</key>
+			<string>301637891CE896970085EDDF</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>3016378B1CE896970085EDDF</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.swift</string>
+			<key>path</key>
+			<string>ViewController.swift</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>3016378C1CE896970085EDDF</key>
+		<dict>
+			<key>fileRef</key>
+			<string>3016378B1CE896970085EDDF</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>3016378D1CE896970085EDDF</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>3016378E1CE896970085EDDF</string>
+			</array>
+			<key>isa</key>
+			<string>PBXVariantGroup</string>
+			<key>name</key>
+			<string>Main.storyboard</string>
+			<key>path</key>
+			<string>.</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>3016378E1CE896970085EDDF</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>file.storyboard</string>
+			<key>name</key>
+			<string>Base</string>
+			<key>path</key>
+			<string>Base.lproj/Main.storyboard</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>3016378F1CE896970085EDDF</key>
+		<dict>
+			<key>fileRef</key>
+			<string>3016378D1CE896970085EDDF</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>301637901CE896970085EDDF</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>folder.assetcatalog</string>
+			<key>path</key>
+			<string>Assets.xcassets</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>301637911CE896970085EDDF</key>
+		<dict>
+			<key>fileRef</key>
+			<string>301637901CE896970085EDDF</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>301637921CE896970085EDDF</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>301637931CE896970085EDDF</string>
+			</array>
+			<key>isa</key>
+			<string>PBXVariantGroup</string>
+			<key>name</key>
+			<string>LaunchScreen.storyboard</string>
+			<key>path</key>
+			<string>.</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>301637931CE896970085EDDF</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>file.storyboard</string>
+			<key>name</key>
+			<string>Base</string>
+			<key>path</key>
+			<string>Base.lproj/LaunchScreen.storyboard</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>301637941CE896970085EDDF</key>
+		<dict>
+			<key>fileRef</key>
+			<string>301637921CE896970085EDDF</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>301637951CE896970085EDDF</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.plist.xml</string>
+			<key>path</key>
+			<string>Info.plist</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>301637961CE896970085EDDF</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>3016379F1CE896970085EDDF</string>
+			</array>
+			<key>isa</key>
+			<string>PBXSourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>301637971CE896970085EDDF</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXFrameworksBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>301637981CE896970085EDDF</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXResourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>301637991CE896970085EDDF</key>
+		<dict>
+			<key>buildConfigurationList</key>
+			<string>301637B11CE896970085EDDF</string>
+			<key>buildPhases</key>
+			<array>
+				<string>301637961CE896970085EDDF</string>
+				<string>301637971CE896970085EDDF</string>
+				<string>301637981CE896970085EDDF</string>
+			</array>
+			<key>buildRules</key>
+			<array/>
+			<key>dependencies</key>
+			<array>
+				<string>3016379C1CE896970085EDDF</string>
+			</array>
+			<key>isa</key>
+			<string>PBXNativeTarget</string>
+			<key>name</key>
+			<string>PaginatedTableTests</string>
+			<key>productName</key>
+			<string>PaginatedTableTests</string>
+			<key>productReference</key>
+			<string>3016379A1CE896970085EDDF</string>
+			<key>productType</key>
+			<string>com.apple.product-type.bundle.unit-test</string>
+		</dict>
+		<key>3016379A1CE896970085EDDF</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>wrapper.cfbundle</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>PaginatedTableTests.xctest</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>3016379B1CE896970085EDDF</key>
+		<dict>
+			<key>containerPortal</key>
+			<string>3016377E1CE896970085EDDF</string>
+			<key>isa</key>
+			<string>PBXContainerItemProxy</string>
+			<key>proxyType</key>
+			<string>1</string>
+			<key>remoteGlobalIDString</key>
+			<string>301637851CE896970085EDDF</string>
+			<key>remoteInfo</key>
+			<string>PaginatedTable</string>
+		</dict>
+		<key>3016379C1CE896970085EDDF</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXTargetDependency</string>
+			<key>target</key>
+			<string>301637851CE896970085EDDF</string>
+			<key>targetProxy</key>
+			<string>3016379B1CE896970085EDDF</string>
+		</dict>
+		<key>3016379D1CE896970085EDDF</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>301637A01CE896970085EDDF</string>
+				<string>3016379E1CE896970085EDDF</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>path</key>
+			<string>PaginatedTableTests</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>3016379E1CE896970085EDDF</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.swift</string>
+			<key>path</key>
+			<string>PaginatedTableTests.swift</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>3016379F1CE896970085EDDF</key>
+		<dict>
+			<key>fileRef</key>
+			<string>3016379E1CE896970085EDDF</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>301637A01CE896970085EDDF</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.plist.xml</string>
+			<key>path</key>
+			<string>Info.plist</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>301637A11CE896970085EDDF</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>301637AA1CE896970085EDDF</string>
+			</array>
+			<key>isa</key>
+			<string>PBXSourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>301637A21CE896970085EDDF</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXFrameworksBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>301637A31CE896970085EDDF</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXResourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>301637A41CE896970085EDDF</key>
+		<dict>
+			<key>buildConfigurationList</key>
+			<string>301637B41CE896970085EDDF</string>
+			<key>buildPhases</key>
+			<array>
+				<string>301637A11CE896970085EDDF</string>
+				<string>301637A21CE896970085EDDF</string>
+				<string>301637A31CE896970085EDDF</string>
+			</array>
+			<key>buildRules</key>
+			<array/>
+			<key>dependencies</key>
+			<array>
+				<string>301637A71CE896970085EDDF</string>
+			</array>
+			<key>isa</key>
+			<string>PBXNativeTarget</string>
+			<key>name</key>
+			<string>PaginatedTableUITests</string>
+			<key>productName</key>
+			<string>PaginatedTableUITests</string>
+			<key>productReference</key>
+			<string>301637A51CE896970085EDDF</string>
+			<key>productType</key>
+			<string>com.apple.product-type.bundle.ui-testing</string>
+		</dict>
+		<key>301637A51CE896970085EDDF</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>wrapper.cfbundle</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>PaginatedTableUITests.xctest</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>301637A61CE896970085EDDF</key>
+		<dict>
+			<key>containerPortal</key>
+			<string>3016377E1CE896970085EDDF</string>
+			<key>isa</key>
+			<string>PBXContainerItemProxy</string>
+			<key>proxyType</key>
+			<string>1</string>
+			<key>remoteGlobalIDString</key>
+			<string>301637851CE896970085EDDF</string>
+			<key>remoteInfo</key>
+			<string>PaginatedTable</string>
+		</dict>
+		<key>301637A71CE896970085EDDF</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXTargetDependency</string>
+			<key>target</key>
+			<string>301637851CE896970085EDDF</string>
+			<key>targetProxy</key>
+			<string>301637A61CE896970085EDDF</string>
+		</dict>
+		<key>301637A81CE896970085EDDF</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>301637AB1CE896970085EDDF</string>
+				<string>301637A91CE896970085EDDF</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>path</key>
+			<string>PaginatedTableUITests</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>301637A91CE896970085EDDF</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.swift</string>
+			<key>path</key>
+			<string>PaginatedTableUITests.swift</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>301637AA1CE896970085EDDF</key>
+		<dict>
+			<key>fileRef</key>
+			<string>301637A91CE896970085EDDF</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>301637AB1CE896970085EDDF</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.plist.xml</string>
+			<key>path</key>
+			<string>Info.plist</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>301637AC1CE896970085EDDF</key>
+		<dict>
+			<key>buildSettings</key>
+			<dict>
+				<key>ALWAYS_SEARCH_USER_PATHS</key>
+				<string>NO</string>
+				<key>CLANG_ANALYZER_NONNULL</key>
+				<string>YES</string>
+				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
+				<string>gnu++0x</string>
+				<key>CLANG_CXX_LIBRARY</key>
+				<string>libc++</string>
+				<key>CLANG_ENABLE_MODULES</key>
+				<string>YES</string>
+				<key>CLANG_ENABLE_OBJC_ARC</key>
+				<string>YES</string>
+				<key>CLANG_WARN_BOOL_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
+				<string>YES_ERROR</string>
+				<key>CLANG_WARN_EMPTY_BODY</key>
+				<string>YES</string>
+				<key>CLANG_WARN_ENUM_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_INT_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
+				<string>YES_ERROR</string>
+				<key>CLANG_WARN_UNREACHABLE_CODE</key>
+				<string>YES</string>
+				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
+				<string>YES</string>
+				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
+				<string>iPhone Developer</string>
+				<key>COPY_PHASE_STRIP</key>
+				<string>NO</string>
+				<key>DEBUG_INFORMATION_FORMAT</key>
+				<string>dwarf</string>
+				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
+				<string>YES</string>
+				<key>ENABLE_TESTABILITY</key>
+				<string>YES</string>
+				<key>GCC_C_LANGUAGE_STANDARD</key>
+				<string>gnu99</string>
+				<key>GCC_DYNAMIC_NO_PIC</key>
+				<string>NO</string>
+				<key>GCC_NO_COMMON_BLOCKS</key>
+				<string>YES</string>
+				<key>GCC_OPTIMIZATION_LEVEL</key>
+				<string>0</string>
+				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
+				<array>
+					<string>DEBUG=1</string>
+					<string>$(inherited)</string>
+				</array>
+				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
+				<string>YES</string>
+				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
+				<string>YES_ERROR</string>
+				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
+				<string>YES_AGGRESSIVE</string>
+				<key>GCC_WARN_UNUSED_FUNCTION</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNUSED_VARIABLE</key>
+				<string>YES</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>9.3</string>
+				<key>MTL_ENABLE_DEBUG_INFO</key>
+				<string>YES</string>
+				<key>ONLY_ACTIVE_ARCH</key>
+				<string>YES</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>SWIFT_OPTIMIZATION_LEVEL</key>
+				<string>-Onone</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
+		<key>301637AD1CE896970085EDDF</key>
+		<dict>
+			<key>buildSettings</key>
+			<dict>
+				<key>ALWAYS_SEARCH_USER_PATHS</key>
+				<string>NO</string>
+				<key>CLANG_ANALYZER_NONNULL</key>
+				<string>YES</string>
+				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
+				<string>gnu++0x</string>
+				<key>CLANG_CXX_LIBRARY</key>
+				<string>libc++</string>
+				<key>CLANG_ENABLE_MODULES</key>
+				<string>YES</string>
+				<key>CLANG_ENABLE_OBJC_ARC</key>
+				<string>YES</string>
+				<key>CLANG_WARN_BOOL_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
+				<string>YES_ERROR</string>
+				<key>CLANG_WARN_EMPTY_BODY</key>
+				<string>YES</string>
+				<key>CLANG_WARN_ENUM_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_INT_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
+				<string>YES_ERROR</string>
+				<key>CLANG_WARN_UNREACHABLE_CODE</key>
+				<string>YES</string>
+				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
+				<string>YES</string>
+				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
+				<string>iPhone Developer</string>
+				<key>COPY_PHASE_STRIP</key>
+				<string>NO</string>
+				<key>DEBUG_INFORMATION_FORMAT</key>
+				<string>dwarf-with-dsym</string>
+				<key>ENABLE_NS_ASSERTIONS</key>
+				<string>NO</string>
+				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
+				<string>YES</string>
+				<key>GCC_C_LANGUAGE_STANDARD</key>
+				<string>gnu99</string>
+				<key>GCC_NO_COMMON_BLOCKS</key>
+				<string>YES</string>
+				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
+				<string>YES</string>
+				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
+				<string>YES_ERROR</string>
+				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
+				<string>YES_AGGRESSIVE</string>
+				<key>GCC_WARN_UNUSED_FUNCTION</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNUSED_VARIABLE</key>
+				<string>YES</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>9.3</string>
+				<key>MTL_ENABLE_DEBUG_INFO</key>
+				<string>NO</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>VALIDATE_PRODUCT</key>
+				<string>YES</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
+		<key>301637AE1CE896970085EDDF</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>301637AF1CE896970085EDDF</string>
+				<string>301637B01CE896970085EDDF</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>301637AF1CE896970085EDDF</key>
+		<dict>
+			<key>buildSettings</key>
+			<dict>
+				<key>ASSETCATALOG_COMPILER_APPICON_NAME</key>
+				<string>AppIcon</string>
+				<key>INFOPLIST_FILE</key>
+				<string>PaginatedTable/Info.plist</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>9.0</string>
+				<key>LD_RUNPATH_SEARCH_PATHS</key>
+				<string>$(inherited) @executable_path/Frameworks</string>
+				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
+				<string>com.medioread.PaginatedTable</string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
+		<key>301637B01CE896970085EDDF</key>
+		<dict>
+			<key>buildSettings</key>
+			<dict>
+				<key>ASSETCATALOG_COMPILER_APPICON_NAME</key>
+				<string>AppIcon</string>
+				<key>INFOPLIST_FILE</key>
+				<string>PaginatedTable/Info.plist</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>9.0</string>
+				<key>LD_RUNPATH_SEARCH_PATHS</key>
+				<string>$(inherited) @executable_path/Frameworks</string>
+				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
+				<string>com.medioread.PaginatedTable</string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
+		<key>301637B11CE896970085EDDF</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>301637B21CE896970085EDDF</string>
+				<string>301637B31CE896970085EDDF</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>301637B21CE896970085EDDF</key>
+		<dict>
+			<key>buildSettings</key>
+			<dict>
+				<key>BUNDLE_LOADER</key>
+				<string>$(TEST_HOST)</string>
+				<key>INFOPLIST_FILE</key>
+				<string>PaginatedTableTests/Info.plist</string>
+				<key>LD_RUNPATH_SEARCH_PATHS</key>
+				<string>$(inherited) @executable_path/Frameworks @loader_path/Frameworks</string>
+				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
+				<string>com.medioread.PaginatedTableTests</string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>TEST_HOST</key>
+				<string>$(BUILT_PRODUCTS_DIR)/PaginatedTable.app/PaginatedTable</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
+		<key>301637B31CE896970085EDDF</key>
+		<dict>
+			<key>buildSettings</key>
+			<dict>
+				<key>BUNDLE_LOADER</key>
+				<string>$(TEST_HOST)</string>
+				<key>INFOPLIST_FILE</key>
+				<string>PaginatedTableTests/Info.plist</string>
+				<key>LD_RUNPATH_SEARCH_PATHS</key>
+				<string>$(inherited) @executable_path/Frameworks @loader_path/Frameworks</string>
+				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
+				<string>com.medioread.PaginatedTableTests</string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>TEST_HOST</key>
+				<string>$(BUILT_PRODUCTS_DIR)/PaginatedTable.app/PaginatedTable</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
+		<key>301637B41CE896970085EDDF</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>301637B51CE896970085EDDF</string>
+				<string>301637B61CE896970085EDDF</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>301637B51CE896970085EDDF</key>
+		<dict>
+			<key>buildSettings</key>
+			<dict>
+				<key>INFOPLIST_FILE</key>
+				<string>PaginatedTableUITests/Info.plist</string>
+				<key>LD_RUNPATH_SEARCH_PATHS</key>
+				<string>$(inherited) @executable_path/Frameworks @loader_path/Frameworks</string>
+				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
+				<string>com.medioread.PaginatedTableUITests</string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>TEST_TARGET_NAME</key>
+				<string>PaginatedTable</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
+		<key>301637B61CE896970085EDDF</key>
+		<dict>
+			<key>buildSettings</key>
+			<dict>
+				<key>INFOPLIST_FILE</key>
+				<string>PaginatedTableUITests/Info.plist</string>
+				<key>LD_RUNPATH_SEARCH_PATHS</key>
+				<string>$(inherited) @executable_path/Frameworks @loader_path/Frameworks</string>
+				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
+				<string>com.medioread.PaginatedTableUITests</string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>TEST_TARGET_NAME</key>
+				<string>PaginatedTable</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
+		<key>301637B71CE8989A0085EDDF</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>301637B81CE898B70085EDDF</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Lib</string>
+			<key>path</key>
+			<string>Lib</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>301637B81CE898B70085EDDF</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.swift</string>
+			<key>path</key>
+			<string>PaginatedTable.swift</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>301637B91CE898B70085EDDF</key>
+		<dict>
+			<key>fileRef</key>
+			<string>301637B81CE898B70085EDDF</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+	</dict>
+	<key>rootObject</key>
+	<string>3016377E1CE896970085EDDF</string>
+</dict>
+</plist>
